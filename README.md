@@ -19,7 +19,8 @@ It depends on your language. All contacts from GAL will be added to that folder.
 On Outlook startup add-in is checking if OAB is changed. If OAB is changed it meens GAL is changed and synchronization will start.
 If contacts are deleted from GAL then it will be deleted from sync contacts folder. If contact is changed then will be updated. Email address is used as key to join GAL with folder.
 
-You can force to sync. Go to contacts and find GAL Sync tab on ribbon then click "Sync".
+You can force to sync. Go to contacts and find GAL Sync tab on ribbon then click "Sync".  
+![Screenshot](ribbon.png)
 
 ### License
 This project is licensed under the MIT License
