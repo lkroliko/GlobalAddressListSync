@@ -40,7 +40,7 @@
     <UpdateIntervalUnits>days</UpdateIntervalUnits>
     <ProductName>GlobalAddressListSync.Add-in</ProductName>
     <PublisherName>Łukasz Królikowski</PublisherName>
-    <SupportUrl />
+    <SupportUrl>https://github.com/lkroliko/GlobalAddressListSync</SupportUrl>
     <FriendlyName>GlobalAddressListSync.Add-in</FriendlyName>
     <OfficeApplicationDescription />
     <LoadBehavior>3</LoadBehavior>
@@ -234,7 +234,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>false</SignManifests>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>GlobalAddressListSync.Add-in_TemporaryKey.pfx</ManifestKeyFile>

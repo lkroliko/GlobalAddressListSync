@@ -15,6 +15,7 @@ namespace GlobalAddressListSync.Add_in
         {
             var options = new Options();
             lblMessage.Label = $"Last sync {options.GALSLastSyncTime}";
+            lblOABLast.Label = $"Last OAB sync {options.OABLastModifiedTime}";
         }
 
         private async void btnSync_Click(object sender, RibbonControlEventArgs e)

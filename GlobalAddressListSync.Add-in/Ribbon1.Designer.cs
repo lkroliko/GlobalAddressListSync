@@ -39,6 +39,7 @@ namespace GlobalAddressListSync.Add_in
             this.group1 = this.Factory.CreateRibbonGroup();
             this.btnSync = this.Factory.CreateRibbonButton();
             this.lblMessage = this.Factory.CreateRibbonLabel();
+            this.lblOABLast = this.Factory.CreateRibbonLabel();
             this.TabHome.SuspendLayout();
             this.group1.SuspendLayout();
             this.SuspendLayout();
@@ -55,6 +56,7 @@ namespace GlobalAddressListSync.Add_in
             // 
             this.group1.Items.Add(this.btnSync);
             this.group1.Items.Add(this.lblMessage);
+            this.group1.Items.Add(this.lblOABLast);
             this.group1.Label = "GAL Sync";
             this.group1.Name = "group1";
             // 
@@ -70,6 +72,11 @@ namespace GlobalAddressListSync.Add_in
             // 
             this.lblMessage.Label = "label1";
             this.lblMessage.Name = "lblMessage";
+            // 
+            // lblOABLast
+            // 
+            this.lblOABLast.Label = "label1";
+            this.lblOABLast.Name = "lblOABLast";
             // 
             // Ribbon1
             // 
@@ -91,6 +98,7 @@ namespace GlobalAddressListSync.Add_in
         internal Microsoft.Office.Tools.Ribbon.RibbonGroup group1;
         internal Microsoft.Office.Tools.Ribbon.RibbonButton btnSync;
         internal Microsoft.Office.Tools.Ribbon.RibbonLabel lblMessage;
+        internal Microsoft.Office.Tools.Ribbon.RibbonLabel lblOABLast;
     }
 
     partial class ThisRibbonCollection
